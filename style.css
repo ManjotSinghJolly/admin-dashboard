@@ -1,0 +1,29 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+.sidebar {
+  background-color: grey;
+}
+
+.body-grid {
+  background-color: beige;
+}
+
+.first-selection {
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: repeat(6, auto);
+
+  border: 1px solid red;
+}
