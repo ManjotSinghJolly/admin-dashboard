@@ -226,3 +226,24 @@ button {
 .username {
   padding-top: 7px;
 }
+
+footer {
+  background-color: #505050;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.attribution,
+.copyright {
+  margin-bottom: 10px;
+}
+
+.attribution a {
+  color: #1992d3;
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+}
